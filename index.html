@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FixMaster Pro — Microwave & AC Repair Guide</title>
+  <meta name="description" content="Expert repair and maintenance guide for microwaves and air conditioners. Step-by-step tutorials, troubleshooting tips, and professional advice." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="logo">
+        <span class="logo-icon">⚡</span>
+        <span>FixMaster<strong>Pro</strong></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#microwave">Microwave</a></li>
+        <li><a href="#ac">Air Conditioner</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#safety">Safety</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="orb orb3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">🔧 Professional Repair Guides</div>
+      <h1>Fix It Like a <span class="gradient-text">Pro</span></h1>
+      <p class="hero-sub">Master microwave & air conditioner repair with step-by-step guides, expert troubleshooting, and professional maintenance tips.</p>
+      <div class="hero-btns">
+        <a href="#microwave" class="btn btn-primary">Microwave Guide</a>
+        <a href="#ac" class="btn btn-outline">AC Guide</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">50+</span><span class="stat-label">Repair Guides</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">200+</span><span class="stat-label">Issues Covered</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">98%</span><span class="stat-label">Success Rate</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="appliance-card card-micro">
+        <div class="appliance-icon">📡</div>
+        <span>Microwave</span>
+      </div>
+      <div class="appliance-card card-ac">
+        <div class="appliance-icon">❄️</div>
+        <span>Air Conditioner</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- MICROWAVE SECTION -->
+  <section id="microwave">
+    <div class="section-header">
+      <div class="section-tag micro-tag">📡 Microwave</div>
+      <h2>Microwave Repair & Maintenance</h2>
+      <p>Diagnose and fix the most common microwave problems safely and efficiently.</p>
+    </div>
+
+    <!-- COMMON ISSUES -->
+    <div class="card-grid" id="microIssues">
+      <div class="issue-card" data-modal="micro1">
+        <div class="issue-icon">💡</div>
+        <h3>Microwave Not Heating</h3>
+        <p>The most common complaint — food comes out cold even after cooking.</p>
+        <span class="difficulty easy">Easy Fix</span>
+        <div class="card-arrow">→</div>
+      </div>
+      <div class="issue-card" data-modal="micro2">
+        <div class="issue-icon">💥</div>
+        <h3>Sparking Inside</h3>
+        <p>Dangerous arcing or sparks appearing during operation.</p>
+        <span class="difficulty medium">Medium</span>
+        <div class="card-arrow">→</div>
+      </div>
+      <div class="issue-card" data-modal="micro3">
+        <div class="issue-icon">🔇</div>
+        <h3>Turntable Not Spinning</h3>
+        <p>The rotating plate stops working or moves erratically.</p>
+        <span class="difficulty easy">Easy Fix</span>
+        <div class="card-arrow">→</div>
+      </div>
+      <div class="issue-card" data-modal="micro4">
+        <div class="issue-icon">🔊</div>
+        <h3>Unusual Noise</h3>
+        <p>Loud humming, buzzing, or rattling sounds during operation.</p>
+        <span class="difficulty medium">Medium</span>
+        <div class="card-arrow">→</div>
+      </div>
+      <div class="issue-card" data-modal="micro5">
+        <div class="issue-icon">🚪</div>
+        <h3>Door Won't Close / Latch</h3>
+        <p>Door latch broken or door interlock switches failed.</p>
+        <span class="difficulty medium">Medium</span>
+        <div class="card-arrow">→</div>
+      </div>
+      <div class="issue-card" data-modal="micro6">
+        <div class="issue-icon">🖥️</div>
+        <h3>Display Not Working</h3>
+        <p>Control panel, display or keypad unresponsive or blank.</p>
+        <span class="difficulty hard">Advanced</span>
+        <div class="card-arrow">→</div>
+      </div>
+    </div>
+
+    <!-- MAINTENANCE STEPS -->
+    <div class="maintenance-block">
+      <h3 class="block-title">🛠️ Routine Microwave Maintenance</h3>
+      <div class="steps-timeline">
+        <div class="step-item">
+          <div class="step-num">01</div>
+          <div class="step-body">
+            <h4>Clean the Interior Weekly</h4>
+            <p>Mix 1 cup water + 1 tbsp vinegar in a microwave-safe bowl. Heat for 5 minutes. The steam loosens grease and food residue. Wipe thoroughly with a damp cloth. Pay special attention to the ceiling — splatter buildup can cause arcing.</p>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">02</div>
+          <div class="step-body">
+            <h4>Inspect & Clean the Door Seal</h4>
+            <p>The rubber door gasket prevents microwave radiation leakage. Wipe with a damp cloth monthly. Check for cracks, hardening, or deformation. A damaged seal must be replaced immediately — never operate with a broken door seal.</p>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">03</div>
+          <div class="step-body">
+            <h4>Clean the Air Vents</h4>
+            <p>Blocked vents cause overheating and premature component failure. Use a soft brush or compressed air to clear vents on the back and sides every 3 months. Ensure at least 3 inches of clearance around the unit.</p>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">04</div>
+          <div class="step-body">
+            <h4>Test the Turntable & Roller Ring</h4>
+            <p>Remove the glass tray and roller ring. Wash both in warm soapy water. Inspect the roller guide for cracks. Ensure the coupling gear is intact and properly seated. Reassemble and test rotation.</p>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">05</div>
+          <div class="step-body">
+            <h4>Check the Waveguide Cover</h4>
+            <p>This cardboard or mica cover protects the magnetron from food splatter. If it's burnt, cracked or food-soaked, replace it. Replacements cost very little and are model-specific — always use genuine parts.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DANGER WARNING -->
+    <div class="danger-box">
+      <div class="danger-icon">⚠️</div>
+      <div>
+        <h4>HIGH VOLTAGE WARNING</h4>
+        <p>Microwave capacitors can store up to <strong>2,100 volts</strong> even when unplugged. Always discharge the capacitor before touching internal components. If you are not experienced with electronics, contact a certified technician for internal repairs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- AC SECTION -->
+  <section id="ac">
+    <div class="section-header">
+      <div class="section-tag ac-tag">❄️ Air Conditioner</div>
+      <h2>AC Repair & Maintenance</h2>
+      <p>Keep your air conditioner running at peak efficiency with professional maintenance techniques.</p>
+    </div>
+
+    <!-- COMMON AC ISSUES -->
+    <div class="card-grid">
+      <div class="issue-card ac-card" data-modal="ac1">
+        <div class="issue-icon">🌡️</div>
+        <h3>AC Not Cooling</h3>
+        <p>Unit runs but room temperature won't drop — the most frequent complaint.</p>
+        <span class="difficulty medium">Medium</span>
+        <div class="card-arrow">→</div>
+      </div>
+      <div class="issue-card ac-card" data-modal="ac2">
+        <div class="issue-icon">💧</div>
+        <h3>Water Leaking Inside</h3>
+        <p>Water dripping from the indoor unit onto walls or floor.</p>
+        <span class="difficulty easy">Easy Fix</span>
+        <div class="card-arrow">→</div>
+      </div>
+      <div class="issue-card ac-card" data-modal="ac3">
+        <div class="issue-icon">🔊</div>
+        <h3>Loud / Unusual Noises</h3>
+        <p>Grinding, rattling, hissing, or banging from indoor or outdoor unit.</p>
+        <span class="difficulty medium">Medium</span>
+        <div class="card-arrow">→</div>
+      </div>
+      <div class="issue-card ac-card" data-modal="ac4">
+        <div class="issue-icon">🧊</div>
+        <h3>Frozen Evaporator Coil</h3>
+        <p>Ice forming on the indoor coil, blocking airflow completely.</p>
+        <span class="difficulty medium">Medium</span>
+        <div class="card-arrow">→</div>
+      </div>
+      <div class="issue-card ac-card" data-modal="ac5">
+        <div class="issue-icon">💨</div>
+        <h3>Weak Airflow</h3>
+        <p>Fan runs but air barely comes out of the vents.</p>
+        <span class="difficulty easy">Easy Fix</span>
+        <div class="card-arrow">→</div>
+      </div>
+      <div class="issue-card ac-card" data-modal="ac6">
+        <div class="issue-icon">🔌</div>
+        <h3>AC Won't Turn On</h3>
+        <p>Unit completely unresponsive to remote or panel controls.</p>
+        <span class="difficulty hard">Advanced</span>
+        <div class="card-arrow">→</div>
+      </div>
+    </div>
+
+    <!-- AC MAINTENANCE -->
+    <div class="maintenance-block ac-block">
+      <h3 class="block-title">🛠️ Seasonal AC Maintenance Plan</h3>
+      <div class="maintenance-tabs">
+        <button class="tab-btn active" data-tab="monthly">Monthly</button>
+        <button class="tab-btn" data-tab="quarterly">Quarterly</button>
+        <button class="tab-btn" data-tab="annual">Annual</button>
+      </div>
+      <div class="tab-content" id="tab-monthly">
+        <ul class="maintenance-list">
+          <li><span class="check">✔</span> Clean or replace air filters — dirty filters reduce efficiency by up to 15%</li>
+          <li><span class="check">✔</span> Check and clean the indoor unit's front grille and vents</li>
+          <li><span class="check">✔</span> Test thermostat and remote control operation</li>
+          <li><span class="check">✔</span> Listen for unusual sounds during startup and operation</li>
+          <li><span class="check">✔</span> Check drain pan for standing water or mold growth</li>
+          <li><span class="check">✔</span> Ensure outdoor unit is free of debris (leaves, grass, dirt)</li>
+        </ul>
+      </div>
+      <div class="tab-content hidden" id="tab-quarterly">
+        <ul class="maintenance-list">
+          <li><span class="check">✔</span> Clean evaporator and condenser coils with coil cleaner spray</li>
+          <li><span class="check">✔</span> Flush the condensate drain line with a bleach-water solution</li>
+          <li><span class="check">✔</span> Check refrigerant lines for insulation damage or ice buildup</li>
+          <li><span class="check">✔</span> Inspect electrical connections and tighten if needed</li>
+          <li><span class="check">✔</span> Clean the blower fan wheel of dust and debris</li>
+          <li><span class="check">✔</span> Lubricate fan motor bearings if accessible</li>
+        </ul>
+      </div>
+      <div class="tab-content hidden" id="tab-annual">
+        <ul class="maintenance-list">
+          <li><span class="check">✔</span> Professional refrigerant level check and top-up if needed</li>
+          <li><span class="check">✔</span> Full electrical system inspection by a certified technician</li>
+          <li><span class="check">✔</span> Compressor performance and amperage test</li>
+          <li><span class="check">✔</span> Check capacitors and contactors in outdoor unit</li>
+          <li><span class="check">✔</span> Full coil deep-clean with professional equipment</li>
+          <li><span class="check">✔</span> Inspect and seal ductwork for energy efficiency</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- REFRIGERANT WARNING -->
+    <div class="danger-box ac-danger">
+      <div class="danger-icon">⚠️</div>
+      <div>
+        <h4>REFRIGERANT HANDLING — CERTIFIED ONLY</h4>
+        <p>Refrigerant handling (R-410A, R-32, R-22) is regulated by law and requires EPA Section 608 certification. <strong>Never attempt to recharge refrigerant yourself.</strong> Improper handling causes environmental damage, equipment failure, and personal injury. Always hire a licensed HVAC technician for refrigerant work.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOOLS SECTION -->
+  <section id="tools">
+    <div class="section-header">
+      <div class="section-tag tools-tag">🔩 Tools</div>
+      <h2>Essential Repair Toolkit</h2>
+      <p>Every successful repair starts with having the right tools for the job.</p>
+    </div>
+    <div class="tools-grid">
+      <div class="tool-card">
+        <div class="tool-emoji">🔌</div>
+        <h4>Multimeter</h4>
+        <p>Test voltage, continuity, and resistance in electrical components. Essential for diagnosing fuses, capacitors, thermostats, and motors.</p>
+        <span class="tool-type both">Both Appliances</span>
+      </div>
+      <div class="tool-card">
+        <div class="tool-emoji">🔧</div>
+        <h4>Screwdriver Set</h4>
+        <p>Phillips (#1, #2), flathead, and Torx T20 screwdrivers. Many appliances use security screws to discourage DIY repair.</p>
+        <span class="tool-type both">Both Appliances</span>
+      </div>
+      <div class="tool-card">
+        <div class="tool-emoji">🔬</div>
+        <h4>Non-Contact Voltage Tester</h4>
+        <p>Safely verify that power is off before touching any wires. Never skip this step — it could save your life.</p>
+        <span class="tool-type both">Both Appliances</span>
+      </div>
+      <div class="tool-card">
+        <div class="tool-emoji">🌡️</div>
+        <h4>Infrared Thermometer</h4>
+        <p>Measure temperatures on coils, motors, and components without contact. Identify hot spots caused by poor electrical connections.</p>
+        <span class="tool-type ac-only">AC Focus</span>
+      </div>
+      <div class="tool-card">
+        <div class="tool-emoji">💨</div>
+        <h4>Compressed Air Can</h4>
+        <p>Blow dust from vents, circuit boards, fan blades, and filters. Use short bursts to avoid moisture damage from propellant.</p>
+        <span class="tool-type both">Both Appliances</span>
+      </div>
+      <div class="tool-card">
+        <div class="tool-emoji">🧲</div>
+        <h4>Capacitor Discharge Tool</h4>
+        <p>Safely discharge high-voltage capacitors before working inside a microwave. Can be made with a resistor, wire, and insulated handles.</p>
+        <span class="tool-type micro-only">Microwave Focus</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SAFETY SECTION -->
+  <section id="safety">
+    <div class="section-header">
+      <div class="section-tag safety-tag">🛡️ Safety</div>
+      <h2>Safety First — Always</h2>
+      <p>Before you pick up any tool, read and follow these critical safety rules.</p>
+    </div>
+    <div class="safety-grid">
+      <div class="safety-card">
+        <div class="safety-num">1</div>
+        <h4>Always Unplug First</h4>
+        <p>Disconnect from mains power before opening any appliance. Wait at least 60 seconds after unplugging a microwave before accessing internals.</p>
+      </div>
+      <div class="safety-card">
+        <div class="safety-num">2</div>
+        <h4>Discharge Capacitors</h4>
+        <p>Microwave capacitors hold lethal voltage even hours after unplugging. Use a properly rated discharge tool before touching any internal components.</p>
+      </div>
+      <div class="safety-card">
+        <div class="safety-num">3</div>
+        <h4>Work Dry & Insulated</h4>
+        <p>Never work in wet conditions. Wear rubber-soled shoes and insulated gloves when working near electrical components.</p>
+      </div>
+      <div class="safety-card">
+        <div class="safety-num">4</div>
+        <h4>Never Bypass Safety Switches</h4>
+        <p>Microwave door interlock switches and AC pressure switches exist to protect you. Bypassing them even temporarily can be fatal.</p>
+      </div>
+      <div class="safety-card">
+        <div class="safety-num">5</div>
+        <h4>Use Genuine Parts</h4>
+        <p>Always replace with OEM or equivalent-spec parts. Substandard components can fail dangerously, cause fires, or void your warranty.</p>
+      </div>
+      <div class="safety-card">
+        <div class="safety-num">6</div>
+        <h4>Know Your Limits</h4>
+        <p>If you're unsure at any point, stop and call a certified technician. Saving money is never worth risking your life or your home.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="section-header">
+      <div class="section-tag faq-tag">❓ FAQ</div>
+      <h2>Frequently Asked Questions</h2>
+      <p>Quick answers to the most common repair questions.</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q">Can I repair my microwave myself?<span class="faq-arrow">▼</span></button>
+        <div class="faq-a"><p>Many external issues like a broken turntable, dirty waveguide cover, or blown fuse can be safely DIY-repaired. However, internal work — especially near the magnetron, capacitor, or transformer — carries serious electrical hazard and should only be done by experienced technicians.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How often should I clean AC filters?<span class="faq-arrow">▼</span></button>
+        <div class="faq-a"><p>Every 2–4 weeks in active use. In dusty environments or homes with pets, check every 2 weeks. A clogged filter forces the system to work harder, raising electricity bills and shortening the lifespan of the compressor.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What causes a microwave to spark?<span class="faq-arrow">▼</span></button>
+        <div class="faq-a"><p>Metal objects or foil in the microwave (most common), a damaged or dirty waveguide cover, burnt rack support, or food residue buildup on the interior walls. Inspect the waveguide cover first — replacing it costs under $10 and solves 70% of sparking issues.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Why is water dripping from my AC indoor unit?<span class="faq-arrow">▼</span></button>
+        <div class="faq-a"><p>Most commonly a clogged condensate drain line. Algae or debris blocks the drain pan from emptying. Flush with a 1:1 bleach and water solution through the drain port. Other causes include frozen coils (low refrigerant or dirty filter) or a cracked/misaligned drain pan.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How do I know if my AC needs refrigerant?<span class="faq-arrow">▼</span></button>
+        <div class="faq-a"><p>Signs include: poor cooling despite a clean filter, ice forming on refrigerant lines, hissing/bubbling sounds from the outdoor unit, and the system running continuously without reaching the set temperature. Refrigerant doesn't "run out" — a low level always means there's a leak that must be fixed first.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Is it worth repairing an old microwave vs buying new?<span class="faq-arrow">▼</span></button>
+        <div class="faq-a"><p>If the repair cost exceeds 50% of the price of a new equivalent unit, replacement is generally more economical. Exceptions: premium commercial-grade units, warranty still in effect, or easily fixed simple issues (door switch, turntable motor, fuse). Magnetron replacement in budget units rarely makes financial sense.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">⚡</span>
+        <span>FixMaster<strong>Pro</strong></span>
+        <p>Your trusted source for appliance repair knowledge.</p>
+      </div>
+      <div class="footer-links">
+        <h5>Guides</h5>
+        <a href="#microwave">Microwave Repair</a>
+        <a href="#ac">AC Repair</a>
+        <a href="#tools">Toolkit</a>
+        <a href="#safety">Safety Guide</a>
+      </div>
+      <div class="footer-links">
+        <h5>Quick Help</h5>
+        <a href="#faq">FAQ</a>
+        <a href="#microwave">Common Issues</a>
+        <a href="#ac">Maintenance Plans</a>
+      </div>
+      <div class="footer-disclaimer">
+        <h5>Disclaimer</h5>
+        <p>This guide is for informational purposes only. Always consult a certified technician for complex repairs. Working with high-voltage appliances without proper training can cause serious injury or death.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 FixMasterPro — All information provided for educational purposes.</p>
+    </div>
+  </footer>
+
+  <!-- MODALS -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-box" id="modalBox">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
